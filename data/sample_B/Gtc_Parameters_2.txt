@@ -1,0 +1,51 @@
+# -*- coding: utf-8 -*-
+#################################
+# Michael Gruber, 01.07.2021    #
+# Medizinische Universität Graz #
+# Lehrstuhl fuer Histologie     #
+#################################
+#
+# Genes To Count - Parameter File
+#
+
+{
+'disease_history_relaps': 'yes',
+'files': {
+	'dapi_image_tif': 'C:/Users/o_grubermi/LW_RUN/Tumor_Counts/gtc/data/sample_B/Images_Coordinates/DAPI.png',
+	'fitc_image_tif': 'C:/Users/o_grubermi/LW_RUN/Tumor_Counts/gtc/data/sample_B/Images_Coordinates/FITC.png',
+	'cell_pos_csv': 'C:/Users/o_grubermi/LW_RUN/Tumor_Counts/gtc/data/sample_B/Images_Coordinates/Cell-coordinates.csv',
+	'gene_pos_csv': 'C:/Users/o_grubermi/LW_RUN/Tumor_Counts/gtc/data/sample_B/Images_Coordinates/Gene-coordinates.csv',
+	'drawn_tissue_mask_png': 'C:/Users/o_grubermi/LW_RUN/Tumor_Counts/gtc/data/sample_B/Images_Coordinates/mask.png'},
+'img_res_in_um_per_px': 0.162478,
+'img_scale_factor': 1,
+'move_in_secure_seal': 50,
+'tissue_masks': {
+	'composite': {
+		'method': 'union'},
+	'neoplastic': {
+		'method': 'threshold',
+		'genes': ['EREG', 'MET', 'BIK', 'CD44', 'ITGAV', 'MYBL2', 'CCND1', 'S100A4']},
+	'dot_radius': {
+		'union': 50,
+		'threshold': 180},
+	'threshold_value': 0.1,
+	'kernel_shape': 'uniform',
+	'morph_operations': {
+		'blurring': False,
+		'closing': True,
+		'opening': True}},
+'tissue_region_masks': {
+	'tissues': [],
+	'boundary_size': 100},
+'custom_gene_sets': {},
+'barplot_props': {
+    'num_genes_per_subplot': 20,
+    'size_subplot': {'x': 0.6, 'y': 4},
+    'sort_genes_by': 'value'},
+'plot_props': {
+    'output_image_dim': 1000,
+	'dot_radius': 15,
+	'num_hist2d_bins': 40}
+}
+
+#################################
