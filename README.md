@@ -9,8 +9,9 @@ Genes To Count
 
 <img src="https://github.com/spatialhisto/GTC/blob/main/_docs_/_etc_/gtc_logo.png?raw=true" width="150" title="GTC" alt="cellpose" align="right" vspace="50">
 
-The algorithm derives compartments for neoplastic and non-neplastic tissue based on selected in situ sequencing genes and compares the results to the tissue compartments classified by a pathologist specialist in colorectal cancer.
-Afterwards, the algorithm counts the number of transcripts in the various compartments and displays the significant genes in a vulcano plot.
+The program derives compartments for neoplastic and non-neplastic tissue based on the transcripts of selected *in situ* sequencing genes.
+The compartments are then compared to the ones classified by a pathologist specialist in colorectal cancer.
+Afterwards, the algorithm counts the number of transcripts for all genes in the various compartments and highlights the significant genes via a vulcano plot.
 
 For a detailed description please refer to our [paper](https://github.com/spatialhisto/GTC/blob/main/_docs_/Documentation.pdf) and the provided [documentation](https://github.com/spatialhisto/GTC/blob/main/_docs_/Documentation.pdf) file.
 
