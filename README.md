@@ -28,6 +28,4 @@ git clone https://github.com/spatialhisto/GTC.git
 python3 gtc_main.py
 ```
 
-#### License
 
-The GTC project is licensed under the Med Uni Graz license.
