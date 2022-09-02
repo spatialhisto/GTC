@@ -16,3 +16,18 @@ Afterwards, the algorithm counts the number of transcripts
 in the compartments and calculates a vulcano plot.
 
 For a detailed description read the [paper](https://github.com/spatialhisto/GTC/blob/main/_docs_/Documentation.pdf) and the [documentation](https://github.com/spatialhisto/GTC/blob/main/_docs_/Documentation.pdf).
+
+#### Installation
+
+```bash
+git clone https://github.com/spatialhisto/GTC.git
+```
+
+#### Run analysis
+```bash
+python3 gtc_main.py
+```
+
+#### License
+
+The GTC project is licensed under the Med Uni Graz license.
